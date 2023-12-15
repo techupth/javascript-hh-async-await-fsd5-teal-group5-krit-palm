@@ -13,3 +13,17 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+
+//Declar Func
+// async function getJohnData() {
+//   const getData = await getJohnProfile();
+//   console.log(getData);
+// }
+
+//Arrow Func
+const getJohnData = async () => {
+  const getData = await getJohnProfile();
+  console.log(getData);
+};
+
+getJohnData();
