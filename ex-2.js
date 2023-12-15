@@ -13,3 +13,11 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+
+const onError = (data) => {
+  console.log(data);
+};
+
+getJohnProfile()
+  .then((data) => console.log(data))
+  .catch(onError);
